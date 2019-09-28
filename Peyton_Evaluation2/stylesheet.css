@@ -53,6 +53,12 @@ ul {
   font-size: 16px;
 }
 
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+}
+
 footer {
   text-align: center;
   border: 5px solid brown;
