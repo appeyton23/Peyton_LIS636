@@ -14,7 +14,7 @@ body {
 /*white background for text to be seen through background*/
  #page {
     background-color: hsl(0, 100%, 100%, 0.8);
-    margin: 10px 160px 40px 160px;
+    margin: 10px 180px 40px 180px;
     padding: 30px 30px 30px 30px;
   }
 
@@ -22,7 +22,7 @@ body {
 header {
   color: black;
   background-color: hsl(0, 100%, 100%, 0.8);
-  margin: 10px 160px 20px 160px;
+  margin: 10px 225px 20px 225px;
   text-align: center;
   border: 5px solid rgb(140,109,44);
   -moz-box-shadow: 5px 5px 5px #777777;
