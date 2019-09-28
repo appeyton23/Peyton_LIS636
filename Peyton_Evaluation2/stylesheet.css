@@ -1,0 +1,103 @@
+stylesheet
+* {
+  font-family: verdana;
+  font-size: 14px;
+  }
+
+
+  html{
+    position: absolute;
+    margin: auto;
+  }
+
+
+body {
+    background: url(ivory-off-white-wrinkled-paper.jpg) no-repeat center fixed;
+    background-size: cover;
+  }
+
+
+  #page {
+    background-color: hsl(0, 100%, 100%, 0.8);
+    margin: 10px 160px 40px 160px;
+    padding: 30px 30px 30px 30px;
+  }
+
+
+header {
+  color: black;
+  background-color: hsl(0, 100%, 100%, 0.8);
+  margin: 10px 160px 20px 160px;
+  text-align: center;
+  border: 5px solid rgb(140,109,44);
+  -moz-box-shadow: 5px 5px 5px #777777;
+  -webkit-box-shadow: 5px 5px 5px #777777;
+  box-shadow: 5px 5px 5px #777777;
+  padding: 10px auto 10px auto;
+}
+
+
+a:visited {
+  color: purple;
+}
+
+a:hover{
+  color: rgb(140,109,44);
+}
+
+
+h2 {
+  color: RGB(140, 109, 44);
+  margin-top: 40px;
+}
+
+#subtitle {
+  color: RGB(0,0,0);
+  margin-top: auto;
+}
+#introduction {
+  margin-top: auto;
+}
+
+
+ul {
+  margin: auto 50px auto 50px;
+}
+
+p {
+  font-family: verdana;
+  font-size: 16px;
+  text-align: justify;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+ul {
+  font-family: verdana;
+  font-size: 16px;
+  list-style-type: circle;
+}
+
+#center_list{
+  margin-left: 300px;
+}
+
+
+.Screenshot {
+  display: block;
+  margin: 30px auto 30px auto;
+  margin-right: auto;
+  width: 90%;
+}
+
+footer {
+  color: black;
+  background-color: hsl(0, 100%, 100%, 0.8);
+  margin: 10px 260px 50px 260px;
+  text-align: center;
+  border: 5px solid rgb(140,109,44);
+  -moz-box-shadow: 5px 5px 5px #777777;
+  -webkit-box-shadow: 5px 5px 5px #777777;
+  box-shadow: 5px 5px 5px #777777;
+  padding: 10px auto 10px auto;
+}
