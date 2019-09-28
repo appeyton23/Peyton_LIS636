@@ -1,30 +1,24 @@
-/*stylesheet*/
+/*Evaluation 2 stylesheet*/
 
-
+/*trying to make content resize when browser window is resized, it sort of works*/
 html{
-  box-sizing: border-box;
-}
+    position: absolute;
+  }
 
-*, *:before, *:after {
-  box-sizing: inherit;
-
-}
-
-
-
+/*background for site*/
 body {
     background: url(ivory-off-white-wrinkled-paper.jpg) no-repeat center fixed;
     background-size: cover;
   }
 
-
-  #page {
+/*white background for text to be seen through background*/
+ #page {
     background-color: hsl(0, 100%, 100%, 0.8);
     margin: 10px 160px 40px 160px;
     padding: 30px 30px 30px 30px;
   }
 
-
+/*box for header*/
 header {
   color: black;
   background-color: hsl(0, 100%, 100%, 0.8);
@@ -52,10 +46,13 @@ h2 {
   margin-top: 40px;
 }
 
+/*wanted subtitle for header to be black and limit space above it*/
 #subtitle {
   color: RGB(0,0,0);
   margin-top: auto;
 }
+
+/*removed excess space before the intro h2*/
 #introduction {
   margin-top: auto;
 }
@@ -63,6 +60,9 @@ h2 {
 
 ul {
   margin: auto 50px auto 50px;
+  font-family: verdana;
+  font-size: 16px;
+  list-style-type: circle;
 }
 
 p {
@@ -73,17 +73,12 @@ p {
   margin-bottom: 10px;
 }
 
-ul {
-  font-family: verdana;
-  font-size: 16px;
-  list-style-type: circle;
-}
-
+/*wanted 2nd unordered list to be more towards the center*/
 #center_list{
   margin-left: 300px;
 }
 
-
+/*formatted all pictures*/
 .Screenshot {
   display: block;
   margin: 30px auto 30px auto;
@@ -91,6 +86,7 @@ ul {
   width: 90%;
 }
 
+/*made box for footer also*/
 footer {
   color: black;
   background-color: hsl(0, 100%, 100%, 0.8);
