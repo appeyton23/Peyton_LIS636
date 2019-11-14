@@ -44,7 +44,11 @@ a:hover{
 h2 {
   color: rgb(0, 48, 73);
   margin-top: 40px;
-  text-decoration: underline;
+  
+}
+
+h2.page {
+text-decoration: underline;
 }
 
 hr {
