@@ -13,7 +13,7 @@ body {
 
 /*white background for text to be seen through background*/
  #page {
-    background-color: hsl(59, 100%, 98%);
+    background-color: hsl(0, 100%, 100%, 1);
     margin: 10px 180px 40px 180px;
     padding: 30px 30px 30px 30px;
   }
@@ -21,7 +21,7 @@ body {
 /*box for header*/
 header {
   color: black;
-  background-color: hsl(0, 100%, 100%, 1);
+  background-color: hsl(59, 100%, 98%);
   margin: 10px 225px 20px 225px;
   text-align: center;
   border: 10px solid #ffbc3d;
@@ -102,7 +102,7 @@ footer {
   background-color: hsl(0, 100%, 100%, 1);
   margin: 10px 225px 20px 225px;
   text-align: center;
-  border: 10px solid #cd202c;
+  border: 10px solid #ffbc3d;
 /*  -moz-box-shadow: 5px 5px 5px #777777;
   -webkit-box-shadow: 5px 5px 5px #777777;
   box-shadow: 5px 5px 5px #777777; */
