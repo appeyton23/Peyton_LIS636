@@ -1,0 +1,110 @@
+/*Evaluation 4 stylesheet*/
+
+/*trying to make content resize when browser window is resized, it sort of works*/
+html{
+    position: absolute;
+  }
+
+/*background for site*/
+body {
+    background: rgb(0, 48, 73);/*url(background-paper-797284_960_720.jpg) no-repeat center fixed;
+    background-size: cover;*/
+  }
+
+/*white background for text to be seen through background*/
+ #page {
+    background-color: hsl(0, 100%, 100%, 1);
+    margin: 10px 180px 40px 180px;
+    padding: 30px 30px 30px 30px;
+  }
+
+/*box for header*/
+header {
+  color: black;
+  background-color: hsl(0, 100%, 100%, 1);
+  margin: 10px 225px 20px 225px;
+  text-align: center;
+  border: 10px solid #cd202c;
+/*  -moz-box-shadow: 5px 5px 5px #777777;
+  -webkit-box-shadow: 5px 5px 5px #777777;
+  box-shadow: 5px 5px 5px #777777; */
+  padding: 10px 10px 10px 10px;
+}
+
+
+a:visited {
+  color: purple;
+}
+
+a:hover{
+  color: rgb(140,109,44);
+}
+
+
+h3 {
+  color: rgb(0, 48, 73);
+  margin-top: 40px;
+
+}
+
+hr {
+  background-color: #ffbc3d;
+  height: 4px;
+  border: 1px solid #000;
+}
+
+/*wanted subtitle for header to be black and limit space above it*/
+#subtitle {
+  color: RGB(0,0,0);
+  margin-top: auto;
+}
+
+/*removed excess space before the intro h2*/
+#introduction {
+  margin-top: auto;
+}
+
+
+ul {
+  margin: auto 50px auto 50px;
+  font-family: verdana;
+  font-size: 16px;
+  list-style-type: circle;
+}
+
+p {
+  font-family: verdana;
+  font-size: 16px;
+  text-align: justify;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+
+/*formatted all pictures*/
+img {
+  display: block;
+  margin: 30px auto 30px auto;
+  margin-right: auto;
+  width: 75%;
+  border-radius: 8px;
+}
+
+/*resized certain pictures to fit properly*/
+/*#section {
+  width:80%;
+  margin-left: 30px;
+}
+*/
+/*made box for footer also*/
+footer {
+  color: black;
+  background-color: hsl(0, 100%, 100%, 1);
+  margin: 10px 225px 20px 225px;
+  text-align: center;
+  border: 10px solid #cd202c;
+/*  -moz-box-shadow: 5px 5px 5px #777777;
+  -webkit-box-shadow: 5px 5px 5px #777777;
+  box-shadow: 5px 5px 5px #777777; */
+  padding: 10px 10px 10px 10px;
+}
